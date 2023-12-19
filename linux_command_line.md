@@ -26,4 +26,24 @@ Executing multiple commnands:
 - `command1, command2, ... commandn`
 - `echo 'Hello '; echo 'World' `
 
+## Installing and Updating Software
+
+Refresh the list of available packages on the system:
+- `apt update`
+
+Upgrade existing packages and installs dependencies:
+- `apt upgrade`
+
+Upgrade existing packages, install dependencies, removes redundant packages
+- `apt full-upgrade`
+
+Install Software
+- `apt install [package]`
+
+Remove Software
+- `apt remove [package]`
+
+Remove packages that are no longer needed
+- `apt autoremove`
+
 ## User Management
