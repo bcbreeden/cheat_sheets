@@ -46,4 +46,21 @@ Remove Software
 Remove packages that are no longer needed
 - `apt autoremove`
 
+## File Management
+Create a new file or update the timestamp on an existing file
+- `touch file.txt`
+- `touch file1.txt file2.txt`
+
+Create a new directory
+- `mkdir directoryname`
+
+Delete a file
+- `rm file.txt`
+- `rm file1.txt file2.txt`
+
+Delete a directory
+- `rmdir directoryname`
+- `rmdir dir1 dir2`
+
+
 ## User Management
